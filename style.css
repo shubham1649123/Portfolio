@@ -14,7 +14,7 @@ nav {
     align-items: center;
     background-color: rgb(17, 17, 17);
     height: 10vh;
-    width:100%;
+    width: 100%;
 }
 
 
@@ -189,5 +189,10 @@ p {
 #element {
     color: aqua;
 }
+
 @media (max-width:400px) {
+    .leftsec {
+        height: 20%;
+        width: 10%;
+    }
 }
