@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    height: 10vh;
+}
+
+
+.left {
+    font-size: 1.5rem;
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right ul li {
+    margin-left: 80px;
+}
+
+.firstsection {
+    display: flex;
+}
+
+.rightsec {
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+}
+
+.leftsec img {
+    height: 22rem;
+    padding-left: 4rem;
+    padding-top: 5rem;
+}
+
+.leftsec {
+    height: 60vh;
+    width: 40vw;
+}
+
+.intro {
+    height: 30px;
+    width: 25rem;
+    padding-top: 6rem;
+    font-size: 25px;
+    font-family: "Roboto Slab", serif;
+
+}
+
+.intro p {
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.intro h3 {
+    font-size: 23px;
+}
+
+.intro button {
+    height: 40px;
+    font-size: 20px;
+    margin-top: 45px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact {
+    margin-left: 20px;
+}
+
+.one {
+    background-color: black;
+    border-radius: 2px solid rgb(17, 17, 17);
+    width: 90%;
+    margin: auto;
+    opacity: 0.3;
+}
+
+.two {
+    background-color: black;
+    border-radius: 1px solid rgb(17, 17, 17);
+    width: 75%;
+    margin: auto;
+    opacity: 0.3;
+}
+
+.recent_project {
+    font-size: 35px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+.details {
+    height: 100px;
+    width: 80%;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.details h3,
+h4,
+p {
+    margin-bottom: 5px;
+}
+
+.view-link {
+    display: inline-block;
+    text-decoration: none;
+    /* underline hata dega */
+    color: white;
+    /* text color */
+    background: #007bff;
+    /* blue button jaisa */
+    padding: 8px 16px;
+    margin-top: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.view-link:hover {
+    background: #0056b3;
+    /* hover pe dark blue */
+}
+
+.projects_details {
+    width: 80vw;
+    height: 12rem;
+    margin-left: 140px;
+    display: flex;
+    justify-content: left;
+}
+
+.footer {
+    background-color: rgb(17, 17, 17);
+    height: 4rem;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer div {
+    color: white;
+    height: 3rem;
+    width: 25%;
+    margin-top: 5px;
+}
+
+.social_link {
+    color: white;
+    /* text aur icon dono white */
+    text-decoration: none;
+    /* underline hata do */
+    margin: 0 10px;
+    /* thoda gap */
+    font-size: 18px;
+    /* thoda bada text */
+}
+
+.social_link:hover {
+    color: #ff4081;
+    /* hover pe pinkish (Instagram style) */
+}
+
+#element {
+    color: aqua;
+}
