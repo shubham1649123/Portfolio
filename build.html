@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build your Project</title>
+    <link href="build.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="outerbox">
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <!-- Name -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <!-- Contact -->
+            <label for="contact">Contact:</label><br>
+            <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required><br><br>
+
+            <!-- Project Description -->
+            <label for="project">Describe about your project:</label><br>
+            <textarea id="project" name="project" rows="5" cols="30" placeholder="Write about your project..."
+                required></textarea><br><br>
+
+            <!-- File Upload -->
+            <label for="file">Upload Project File (Template / Image / PDF):</label><br>
+            <input type="file" id="file" name="file" accept=".pdf, .jpg, .jpeg, .png, .docx, .zip"><br><br>
+
+            <!-- Submit -->
+            <button type="submit">Submit</button>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>

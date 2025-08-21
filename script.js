@@ -4,3 +4,7 @@ var typed = new Typed('#element', {
     backSpeed: 30,
     loop: true
 });
+const btn=document.querySelector("#build_project");
+btn.addEventListener("click",()=>{
+    window.location.href="build.html";
+})
