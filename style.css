@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: black;
@@ -15,6 +18,7 @@ nav {
     background-color: rgb(17, 17, 17);
     height: 10vh;
     width: 100%;
+    position: fixed;
 }
 
 
@@ -30,8 +34,14 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.right ul li {
+.right ul a {
     margin-left: 80px;
+    color:white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.right ul a:hover{
+    color: rgb(57, 57, 68);
 }
 
 .firstsection {
@@ -87,14 +97,13 @@ nav {
     margin-left: 20px;
 }
 
-.one {
+.one{
     background-color: black;
     border-radius: 2px solid rgb(17, 17, 17);
     width: 90%;
     margin: auto;
     opacity: 0.3;
 }
-
 .two {
     background-color: black;
     border-radius: 1px solid rgb(17, 17, 17);
@@ -102,6 +111,7 @@ nav {
     margin: auto;
     opacity: 0.3;
 }
+
 
 .recent_project {
     font-size: 35px;
@@ -119,9 +129,7 @@ nav {
     margin-top: 20px;
 }
 
-.details h3,
-h4,
-p {
+.details h3,h4,p {
     margin-bottom: 5px;
 }
 
@@ -189,13 +197,36 @@ p {
 #element {
     color: aqua;
 }
-
-@media (max-width:400px) {
-    .leftsec {
-        height: 20%;
-        width: 10%;
-    }
-    body{
-        background-color: red;
-    }
+.service{
+    /* background-color: red; */
+    width: 100%;
+    height:60vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.development,.design,.others{
+    /* background-color: rgb(202, 180, 180); */
+    color:white;
+    height:20vh;
+    width:72%;
+    margin-top: 3px;
+    margin-left:14%;
+    font-family:sans-serif;
+    border: 3px solid rgb(17, 17, 17);
+}
+.service li{
+    list-style: none;
+    margin-left: 20px;
+    font-size:large;
+    font-family:'Courier New', Courier, monospace;
+}
+.service h4{
+    text-decoration: underline;
+}
+#services h3{
+    margin-left:150px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    font-size: 35px;
 }
